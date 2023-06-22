@@ -1,5 +1,12 @@
- .header {
-  font-family:Arial, Helvetica, sans-serif;
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
   padding: 3px;
   background-color: rgb(53, 53, 53);
   color:rgb(120, 230, 251);
@@ -8,28 +15,23 @@
  .header h1 {
   margin-left: 5px;
   padding-left: 5px;
-  display: inline-block;
-  font-size: 34px;
+  font-size: 36px;
   background-color: rgb(120, 230, 251);
   color: rgb(53, 53, 53);
  }
 
  .header nav {
-  margin-top: 18px;
-  margin-right: 20px;
-  float: right;
+  margin: 15px;
  }
 
  .header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
  }
 
- .header nav ul li {
-  font-family:Arial, Helvetica, sans-serif;
-  display: inline-block;
- }
-
- a {
+ .header nav ul li a {
   color: rgb(120, 230, 251);
   font-size: 17px;
   margin-right: 4px;
