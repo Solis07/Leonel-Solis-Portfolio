@@ -10,7 +10,8 @@
   padding-left: 5px;
   display: inline-block;
   font-size: 34px;
-  color: rgb(120, 230, 251);
+  background-color: rgb(120, 230, 251);
+  color: rgb(53, 53, 53);
  }
 
  .header nav {
@@ -33,4 +34,5 @@
   font-size: 17px;
   margin-right: 4px;
   margin-left: 4px;
+  text-underline-offset: 5px;
  }
