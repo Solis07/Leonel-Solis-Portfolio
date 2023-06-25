@@ -110,11 +110,27 @@ body {
 
 .grid-project {
  width: 70%;
- display: grid;
+ display: flex;
+
 }
 
 .project {
 
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.footer-content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
 
 
