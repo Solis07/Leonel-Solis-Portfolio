@@ -22,7 +22,7 @@ body {
   padding-top: 3px;
   font-size: 36px;
   background-color: rgb(120, 230, 251);
-  color: rgb(53, 53, 53);
+  color: rgb(74, 73, 73);
  }
 
  .header nav {
@@ -45,8 +45,70 @@ body {
  }
 
  .hero {
-  background-image: url("../images/images.jpeg");
-  height: 225px;
-  object-fit: fill;
-  object-position: center;
+  background-image: url("../images/hero.jpeg");
+  height: 275px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
  }
+
+.hero .quote {
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: 160px;
+ }
+
+ .quote-text {
+  line-height: 20px;
+ }
+
+ .quote-author {
+  margin-top: 15px;
+  margin-left: 130px;
+ } 
+
+.title {
+  border-right-width: 5px;
+  border-right-style: solid;
+  text-align: right;
+  padding-right: 35px;
+  
+}
+
+.title h2 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.about-me p {
+  padding-left: 20px;
+  line-height: 20px;
+  width: 90%;
+  font-size: 18px;
+}
+
+.my-work {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 600px;
+}
+
+.grid-project {
+
+}
+
