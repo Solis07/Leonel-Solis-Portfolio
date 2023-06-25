@@ -108,5 +108,13 @@ body {
   height: 600px;
 }
 
+.grid-project {
+ width: 70%;
+ display: grid;
+}
+
+.project {
+
+}
 
 
