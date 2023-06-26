@@ -121,45 +121,24 @@ p {
   padding-top: 40px;
 }
 
-.project-work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
 }
 
-.project-work a {
-  color: rgb(160, 158, 158);
-  background-color: #cccecb;
-  border-style: solid;
-  border-color:black;
-  border-width: 5px;
-  display: flex;
-  align-items: flex-end;
-  min-height: 200px;
-  max-height: 250px;
-  flex-basis: 30%;
-  padding-bottom: 3px;
-  padding-left: 5px;
+.project-card {
+  position: relative;
+  margin-left: 20px;
 }
 
-.project-work a:first-child {
-flex-basis: 60%;
-min-height: 250px;
+.project-card p {
+  position: absolute;
+ 
 }
 
-#project-1 {
-  background-image: url("../images/horiseon-screenshot.jpg");
-  background-size: calc(120%);
-  background-repeat: none;
-}
-
-#project-2,
-#project-3,
-#project-4,
-#project-5 {
-  background-image: url("../images/loading.jpeg");
-  background-position: center;
-  background-size: cover
+#card-one {
+  width: 300px;
 }
 
 .contact-me {
@@ -190,4 +169,42 @@ min-height: 250px;
 footer{
   font-size: 10px;
   text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .header h1 {
+    display: block;
+    text-align: center;
+  }
+  .header nav {
+    float: none;
+    text-align: center;
+  }
+  .hero {
+    flex-direction: column; 
+    height: 100%;
+
+  }
+
+  .hero img {
+    margin-top: 40px 0;
+  }
+
+  .hero .quote {
+    margin: 10px auto;
+  }
+
+  .hero .quote-text {
+    margin: 0 auto; 
+  }
+
+  .grid {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  #cardOne {
+
+  }
+
 }
