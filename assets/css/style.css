@@ -48,16 +48,25 @@ p {
 }
 
  .hero {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
    height: 300px;
    margin-bottom: 30px;
    background-image: url("../images/hero.jpeg");
    background-size: cover;
    background-position: center;
  }
+
+ .hero img {
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 100px;
+ }
  
 .hero .quote {
   display: flex;
-  justify-content: end;
+  justify-content:flex-end;
   color: white;
   margin-right: 50px;
   margin-top: 160px;
