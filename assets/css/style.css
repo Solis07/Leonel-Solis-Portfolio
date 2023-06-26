@@ -61,24 +61,26 @@ p {
  .hero img {
   height: 200px;
   border-radius: 100px;
-  margin-left: 100px;
+  margin-left: 35px;
  }
  
 .hero .quote {
   display: flex;
   justify-content:flex-end;
   color: white;
-  margin-right: 50px;
-  margin-top: 160px;
+  margin-right: 100px;
+  margin-top: 125px;
  }
 
  .quote-text {
+  font-size: 20px;
   line-height: 20px;
  }
 
  .quote-author {
+  font-size: 20px;
   margin-top: 15px;
-  margin-left: 130px;
+  margin-left: 160px;
  } 
 
 .title {
