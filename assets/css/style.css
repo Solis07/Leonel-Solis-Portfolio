@@ -131,6 +131,8 @@ p {
   min-width: 200px;
   margin: 1px;
   flex-basis: auto;
+  color: rgb(153, 153, 153);
+  align-items: flex-end;
  }
 
  .project-work a:first-child {
@@ -140,7 +142,6 @@ p {
 
  .project-work a {
   color:rgb(153, 153, 153);
-  display: flex;
   align-items: flex-end;
  }
 
