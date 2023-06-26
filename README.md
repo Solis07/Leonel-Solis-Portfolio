@@ -12,4 +12,4 @@ For this weeks challenge I was tasked with creating my portfolio from scratch us
 
 ## Screenshot
 
-![Portfolio Screenshot](./assets/images/portfolio-screenshot.jpg)
+![Portfolio Screenshot](./assets/images/portfolio-screenshot.jpeg)
