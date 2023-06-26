@@ -84,22 +84,20 @@ p {
  } 
 
 .title {
-  border-right-width: 5px;
-  border-right-style: solid;
+  border-right: solid 5px black;
   text-align: right;
   padding-right: 30px;
-  width: 30vw;
+  width: 20vw;
 }
 
 .content {
-  width: 70vw;
+  width: 80vw;
 }
 
 .title h2 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
   padding-left: 15px;
-
 }
 
 .about-me {
@@ -120,26 +118,45 @@ p {
   justify-content: space-between;
   padding-top: 40px;
 }
+ .project-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 20px;
-}
+ .project-work a {
+  border: solid 5px black;
+  display: flex;
+  min-height: 200px;
+  min-width: 200px;
+  margin: 1px;
+  flex-basis: auto;
+ }
 
-.project-card {
-  position: relative;
-  margin-left: 20px;
-}
+ .project-work a:first-child {
+  flex-basis: 80%;
+  min-height: 300px;
+ }
 
-.project-card p {
-  position: absolute;
- 
-}
+ .project-work a {
+  color:rgb(153, 153, 153);
+  display: flex;
+  align-items: flex-end;
+ }
 
-#card-one {
-  width: 300px;
-}
+ #project-1 {
+  background-image: url(../images/horiseon-screenshot.jpg);
+  background-repeat: none;
+  background-size: cover;
+
+ }
+ #project-2,
+ #project-3,
+ #project-4,
+ #project-5 {
+  background-image: url(../images/loading.jpeg);
+  background-position: center;
+ }
 
 .contact-me {
   padding-top: 40px;
@@ -180,10 +197,10 @@ footer{
     float: none;
     text-align: center;
   }
+
   .hero {
     flex-direction: column; 
     height: 100%;
-
   }
 
   .hero img {
@@ -198,13 +215,8 @@ footer{
     margin: 0 auto; 
   }
 
-  .grid {
-    grid-template-columns: auto;
-    justify-content: center;
-  }
-
-  #cardOne {
-
+  .contact-me nav ul {
+    display: block;
   }
 
 }
