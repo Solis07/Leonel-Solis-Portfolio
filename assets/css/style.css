@@ -96,7 +96,7 @@ p {
 
 .title h2 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 2rem;
   padding-left: 15px;
 }
 
@@ -127,24 +127,19 @@ p {
  .project-work a {
   border: solid 5px black;
   display: flex;
+  color:rgb(153, 153, 153);
+  align-items: flex-end;
   min-height: 200px;
   min-width: 200px;
-  margin: 1px;
+  margin: 2px;
   flex-basis: auto;
-  color: rgb(153, 153, 153);
-  align-items: flex-end;
  }
 
  .project-work a:first-child {
   flex-basis: 80%;
   min-height: 300px;
  }
-
- .project-work a {
-  color:rgb(153, 153, 153);
-  align-items: flex-end;
- }
-
+ 
  #project-1 {
   background-image: url(../images/horiseon-screenshot.jpg);
   background-repeat: none;
@@ -215,6 +210,10 @@ footer{
   .hero .quote-text {
     margin: 0 auto; 
   }
+
+  .title h2 {
+    font-size: 1.4rem
+  } 
 
   .contact-me nav ul {
     display: block;
