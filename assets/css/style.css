@@ -117,20 +117,43 @@ p {
 }
 
 .project-work a {
+  color: black;
+  background-color: white;
   border-style: solid;
+  border-color:black;
   border-width: 5px;
   display: flex;
+  flex-basis: 30%;
   min-height: 200px;
   max-height: 200px;
   align-items: flex-end;
   padding-bottom: 20px;
 }
 
-.project-work a div {
-
+.project-work a:first-child {
+flex-basis: 60%;
+min-height: 250px;
 }
 
+#project-1 {
+  background-image: url("../images/loading.jpeg");
+}
 
+#project-2 {
+  background-image: url("../images/loading.jpeg");
+}
+
+#project-3 {
+  background-image: url("../images/loading.jpeg");
+}
+
+#project-4 {
+  background-image: url("../images/loading.jpeg");
+}
+
+#project-5 {
+  background-image: url("../images/loading.jpeg");
+}
 
 .contact-me {
   padding-top: 40px;
@@ -151,8 +174,14 @@ p {
 
 .contact-me nav ul li {
   font-size: 18px;
+  font-weight: ;
 }
 .contact-me nav ul li a {
   color:rgb(44, 44, 44);
   text-underline-offset: 3px;
+}
+
+footer{
+  font-size: 10px;
+  text-align: center;
 }
