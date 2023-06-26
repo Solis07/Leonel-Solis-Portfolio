@@ -8,7 +8,7 @@ For this weeks challenge I was tasked with creating my portfolio from scratch us
 
 ## Website Link
 
-[My Portfolio](https://solis07.github.io/Refractor-Code-Challenge-Horiseon/)
+[My Portfolio](https://solis07.github.io/Leonel-Solis-Portfolio/)
 
 ## Screenshot
 
