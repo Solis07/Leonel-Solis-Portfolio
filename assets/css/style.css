@@ -126,17 +126,18 @@ p {
 }
 
 .project-work a {
-  color: black;
+  color: rgb(160, 158, 158);
   background-color: #cccecb;
   border-style: solid;
   border-color:black;
   border-width: 5px;
   display: flex;
-  flex-basis: 30%;
   align-items: flex-end;
   min-height: 200px;
   max-height: 250px;
-  padding-bottom: 20px;
+  flex-basis: 30%;
+  padding-bottom: 3px;
+  padding-left: 5px;
 }
 
 .project-work a:first-child {
@@ -150,28 +151,13 @@ min-height: 250px;
   background-repeat: none;
 }
 
-#project-2 {
-  background-image: url("../images/loading.jpeg");
-  background-position: center;
-  background-size: cover
-}
-
-#project-3 {
-  background-image: url("../images/loading.jpeg");
-  background-position: center;
-  background-size: cover;
-}
-
-#project-4 {
-  background-image: url("../images/loading.jpeg");
-  background-position: center;
-  background-size: cover;
-}
-
+#project-2,
+#project-3,
+#project-4,
 #project-5 {
   background-image: url("../images/loading.jpeg");
   background-position: center;
-  background-size: cover;
+  background-size: cover
 }
 
 .contact-me {
