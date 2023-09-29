@@ -146,7 +146,11 @@ p {
   background-size: cover;
 
  }
- #project-2,
+ #project-2 {
+  background-image: url(../images/Pokemon-CC.jpg);
+  background-repeat: none;
+  background-size: cover;
+ }
  #project-3,
  #project-4,
  #project-5 {
