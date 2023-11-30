@@ -151,7 +151,11 @@ p {
   background-repeat: none;
   background-size: cover;
  }
- #project-3,
+ #project-3 {
+  background-image: url(../images/Screen\ Shot\ 2023-11-29\ at\ 7.51.04\ PM.png);
+  background-repeat: none;
+  background-size: cover;
+ }
  #project-4,
  #project-5 {
   background-image: url(../images/loading.jpeg);
